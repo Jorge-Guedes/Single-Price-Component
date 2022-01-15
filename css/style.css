@@ -105,9 +105,9 @@ body {
 }
 .container .content-bottom--right p {
     color: var(--lightGray);
-    max-width: 11rem;
+    max-width: 11.5rem;
     font-size: 0.875rem;
-    line-height: 1.3 ;
+    line-height: 1.5 ;
 }
 
 @media (max-width: 450px) {
