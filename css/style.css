@@ -28,7 +28,6 @@ body {
     border-radius: 0.625rem;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);
     background: var(--white);
-    width: 40rem;
     width: clamp(15rem, 90%, 40rem);
 }
 .container .content-top {
