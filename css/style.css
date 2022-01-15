@@ -29,6 +29,7 @@ body {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);
     background: var(--white);
     width: clamp(15rem, 90%, 40rem);
+    height: 100%;
 }
 .container .content-top {
     padding: 2.5rem;
@@ -39,10 +40,10 @@ body {
     margin-bottom: 1.5rem;
 }
 .container .content-top span {
-    margin-bottom: 1rem;
+    margin-bottom: 1.125rem;
     display: inline-block;
     color: var(--brightYellow);
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: bold;
 }
 .container .content-top p {
@@ -77,7 +78,7 @@ body {
     font-size: 2rem;
     display: flex;
     align-items: center;
-    margin-bottom: 0.875rem;
+    margin-bottom: 0.625rem;
 }
 .container .content-bottom--left h2 span {
     color: hsl(180, 54%, 61%);
@@ -90,13 +91,13 @@ body {
     color: var(--white);
     padding: 0.875rem 0;
     width: 100%;
-    margin-top: 1.25rem;
+    margin-top: 1.875rem;
     cursor: pointer;
     border-radius: 0.3125rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .1);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 .container .content-bottom--right {
     background: var(--cyanLight);
@@ -105,6 +106,7 @@ body {
 .container .content-bottom--right p {
     color: var(--lightGray);
     max-width: 13rem;
+    font-size: 0.875rem;
     line-height: 1.3 ;
 }
 
